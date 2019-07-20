@@ -31,12 +31,6 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.6</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.mchange/c3p0 -->
-        <dependency>
-            <groupId>com.mchange</groupId>
-            <artifactId>c3p0</artifactId>
-            <version>0.9.5.2</version>
-        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -52,5 +46,6 @@
             <artifactId>spring-tx</artifactId>
             <version>5.1.8.RELEASE</version>
         </dependency>
+             <!--缺少c3p0数据连接池的依赖-->
     </dependencies>
 </project>
